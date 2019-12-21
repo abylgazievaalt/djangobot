@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-23 05:03+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: applicants/admin.py:38
+msgid "Application status"
+msgstr ""
+
+#: applicants/models.py:11
+msgid "Date of Birth"
+msgstr ""
+
+#: applicants/models.py:20
+msgid "Telegram number"
+msgstr ""
+
+#: applicants/models.py:36
+msgid "Applicant"
+msgstr ""
+
+#: applicants/models.py:37
+msgid "Applicants"
+msgstr ""
+
+#: applicants/serializers.py:27
+msgid "No active registrations at the moment."
+msgstr ""
+
+#: application_info/apps.py:7
+msgid "Application info"
+msgstr ""
+
+#: application_info/models.py:6 application_info/models.py:19
+#: interviews/models.py:26 slack/models.py:9 slack/models.py:30
+msgid "Name"
+msgstr ""
+
+#: application_info/models.py:7
+msgid "City"
+msgstr ""
+
+#: application_info/models.py:10
+msgid "University"
+msgstr ""
+
+#: application_info/models.py:11
+msgid "Universities"
+msgstr ""
+
+#: application_info/models.py:22
+msgid "Department"
+msgstr ""
+
+#: application_info/models.py:23
+msgid "Departments"
+msgstr ""
+
+#: applications/admin.py:42
+msgid "status"
+msgstr ""
+
+#: applications/admin.py:53
+msgid "Is currently active"
+msgstr ""
+
+#: applications/choices.py:9
+msgid "New"
+msgstr ""
+
+#: applications/choices.py:10
+msgid "Being considered"
+msgstr ""
+
+#: applications/choices.py:11
+msgid "Invited for an interview"
+msgstr ""
+
+#: applications/choices.py:12
+msgid "Rejected"
+msgstr ""
+
+#: applications/models.py:10
+msgid "Season name"
+msgstr ""
+
+#: applications/models.py:19
+msgid "Season"
+msgstr ""
+
+#: applications/models.py:20
+msgid "Seasons"
+msgstr ""
+
+#: applications/models.py:31
+msgid "Date applied"
+msgstr ""
+
+#: applications/models.py:35
+msgid "Status"
+msgstr ""
+
+#: applications/models.py:40
+msgid "Application"
+msgstr ""
+
+#: applications/models.py:41
+msgid "Applications"
+msgstr ""
+
+#: interviews/models.py:18
+msgid "Time slot"
+msgstr ""
+
+#: interviews/models.py:19
+msgid "Time slots"
+msgstr ""
+
+#: interviews/models.py:29
+msgid "Interview pack"
+msgstr ""
+
+#: interviews/models.py:30
+msgid "Interview packs"
+msgstr ""
+
+#: interviews/models.py:46
+msgid "Interview"
+msgstr ""
+
+#: interviews/models.py:47
+msgid "Interviews"
+msgstr ""
+
+#: interviews/models.py:58
+msgid "Grade"
+msgstr ""
+
+#: interviews/models.py:61
+msgid "Comment"
+msgstr ""
+
+#: interviews/models.py:64
+msgid "Interview grade"
+msgstr ""
+
+#: interviews/models.py:65
+msgid "Interview grades"
+msgstr ""
+
+#: interviews/views.py:50
+msgid "Applicant with given info doesn't exist"
+msgstr ""
+
+#: interviews/views.py:54
+msgid "Please provide all required fields"
+msgstr ""
+
+#: slack/bot_mentions.py:28
+msgid "Removed <@{}> from group {}"
+msgstr ""
+
+#: slack/bot_mentions.py:32
+msgid "<@{}> is not registered in {}"
+msgstr ""
+
+#: slack/bot_mentions.py:35 slack/bot_mentions.py:55
+msgid "<@{}> is not registered in system"
+msgstr ""
+
+#: slack/bot_mentions.py:45
+msgid "You are not registered for standups in this channel"
+msgstr ""
+
+#: slack/bot_mentions.py:67
+msgid "Please specify channel for reports in admin"
+msgstr ""
+
+#: slack/bot_mentions.py:113
+msgid "#report {}:"
+msgstr ""
+
+#: slack/models.py:8 slack/models.py:28
+msgid "User unique ID"
+msgstr ""
+
+#: slack/models.py:17
+msgid "Channel name"
+msgstr ""
+
+#: slack/models.py:18
+msgid "Channel unique ID"
+msgstr ""
+
+#: slack/models.py:19
+msgid "Incoming webhook"
+msgstr ""
+
+#: slack/models.py:20
+msgid "Stand up time"
+msgstr ""
+
+#: slack/models.py:32
+msgid "Linked channels"
+msgstr ""
+
+#: slack/models.py:40
+msgid "Members"
+msgstr ""
+
+#: slack/models.py:45
+msgid "Standup author"
+msgstr ""
+
+#: slack/models.py:48 slack/models.py:63
+msgid "Linked channel"
+msgstr ""
+
+#: slack/models.py:51
+msgid "Standup submitted time"
+msgstr ""
+
+#: slack/models.py:52
+msgid "Standup content"
+msgstr ""
+
+#: slack/models.py:60
+msgid "mentee"
+msgstr ""
+
+#: slack/models.py:65
+msgid "Missed day"
+msgstr ""
+
+#: slack/models.py:72
+msgid "Misses"
+msgstr ""
+
+#: slack/slash_commands.py:21
+msgid "Channel added"
+msgstr ""
+
+#: slack/slash_commands.py:25
+msgid "Channel already in system"
+msgstr ""
+
+#: slack/utils.py:68
+msgid "Come back later"
+msgstr ""
+
+#: slack/utils.py:80
+msgid "I'm tired of you"
+msgstr ""
+
+#: slack/utils.py:92
+msgid "<@{}> already in the group {}"
+msgstr ""
+
+#: slack/utils.py:95
+msgid "Succesfully added <@{}> to group {}"
+msgstr ""
+
+#: slack/utils.py:103
+msgid "You are freaking late, mate"
+msgstr ""
+
+#: slack/utils.py:106
+msgid "Your standup report is too short, just like your .... hair"
+msgstr ""
+
+#: slack/utils.py:109
+msgid "Standup submitted"
+msgstr ""
+
+#: slack/views.py:106
+msgid "Not enough permissions to execute command"
+msgstr ""
